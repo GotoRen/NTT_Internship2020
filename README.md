@@ -1,8 +1,9 @@
 # NTT_Internship2020
 - AT共有 / Docomoハッカソン
-### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `NTT-AT`
+### ![#0000FF](https://placehold.it/15/1589F0/000000?text=+) `NTT-AT`
 - コードの共有とバックアップ
 - Contents
   - `Note/Development.md`
     - プロジェクト上流工程
     - 青色表記は提示案 
+### ![#FF0000](https://placehold.it/15/1589F0/000000?text=+) `NTT-AT`
