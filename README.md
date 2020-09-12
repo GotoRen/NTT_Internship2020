@@ -6,5 +6,6 @@
   - `Note/Development.md`
     - プロジェクト上流工程
     - 青色表記は提示案 
+  - https://docs.google.com/spreadsheets/d/1JInjsHTp7T1aqAKBqBbUYuVtMH53JwbGJicYXmu-vAg/edit#gid=0  
 ### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `NTTdocomo`
 - 未 
