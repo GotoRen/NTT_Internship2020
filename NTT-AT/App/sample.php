@@ -5,11 +5,13 @@ $selectDate = NULL;
 $label = NULL;
 $data1 = NULL;
 $data2 = NULL;
+//Todo: $csvFileの変数初期化を設定
 
 /* CSVファイル読み込み */
+/*
 $csvData = new SplFileObject($csvFile);
 $csvData->setFlags(SplFileObject::READ_CSV);
-
+*/
 
 /* 選択した日付取得 */
 if(isset($_POST['calendar'])){
@@ -83,14 +85,12 @@ window.onload = function() {
 
     $.datepicker.setDefaults($.datepicker.regional["js"]); 
     $("#calendar").datepicker({
-	dateFormat: "yy-mm-dd",   
-	onSelect: function(selectedDate){
-
-	/* 選択した日付をフォームにセット */
-	$(':text[name="calendar"]').val(selectedDate);	
-
-	}
-     });
+	    dateFormat: "yy-mm-dd",   
+	    onSelect: function(selectedDate){
+	        /* 選択した日付をフォームにセット */
+	        $(':text[name="calendar"]').val(selectedDate);	
+	    }
+     );
 
     /* グラフの描画 */
     ctx = document.getElementById("canvas").getContext("2d");
@@ -107,22 +107,22 @@ window.onload = function() {
 var barChartData = {
 labels: ['<?php echo $label; ?>'],
     datasets: [
-    {
-        type: 'line',
-        label: '湿度',
-	data: ['<?php echo $data1; ?>'],
-        borderColor : "rgba(254,97,132,0.8)",
-        pointBackgroundColor    : "rgba(254,97,132,0.8)",
-        fill: false,
-    },
-    {
-        type: 'line',
-        label: '温度',
-	data: ['<?php echo $data2; ?>'],
-        borderColor : "rgba(54,164,235,0.8)",
-        pointBackgroundColor    : "rgba(254,97,132,0.8)",
-        fill: false,
-    },
+        {
+            type  : 'line',
+            label : '湿度',
+	        data: ['<?php echo $data1; ?>'],
+                borderColor             : "rgba(254,97,132,0.8)",
+                pointBackgroundColor    : "rgba(254,97,132,0.8)",
+                fill                    : false,
+            },
+        {
+            type  : 'line',
+            label : '温度',
+	        data: ['<?php echo $data2; ?>'],
+                borderColor             : "rgba(54,164,235,0.8)",
+                pointBackgroundColor    : "rgba(254,97,132,0.8)",
+                fill                    : false,
+        },
     ],
 };
 </script>
