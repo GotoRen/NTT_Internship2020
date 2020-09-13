@@ -35,54 +35,23 @@ div.creater {
 }
 
 /*******************************************************************/
-
-/* Signin Form */
-.container {
-    height: 80vh;            /* 縦のサイズ */
-    display: flex;           /* 中央揃え */
-    justify-content: center; /* 中央揃え */
-    align-items: center;     /* 中央揃え */
-}
-
-/* ログインフォーム */
-.area {
-    padding:15px;         /* 余白 */
-    border:1px solid;     /* 枠線 */
-    border-radius:15px;   /* 角丸 */
-    border-color: gray; /* 枠線の色 */
-}  
-
-/* タイトル */
-#title {
-    font-size: 45px;
-    color: gray;
-    text-align: center;
-    padding: 20px;
-}
-
-/* テキストボックス */
-p {
-    padding-left: 50px;
-    text-align: left;
-    color: gray;
-}
-
 /* テキストボックスを囲む */
 .elem {
     width: 350px;
-    height: 45px;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin: 0px;
-    padding: 0px;
+    margin: 20px;
+    padding: 20px;
 }
 
-/* テキストボックス */
-input {
-    width: 70%;
-    height: 50%;
+.choose {
+    padding-left: 80px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
 }
 
 /* 送信ボタン */

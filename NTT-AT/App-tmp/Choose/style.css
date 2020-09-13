@@ -34,31 +34,7 @@ div.creater {
     font-family: 'Homemade Apple', cursive;
 }
 
-
-/* Signin Form */
-.container {
-    height: 80vh;            /* 縦のサイズ */
-    display: flex;           /* 中央揃え */
-    justify-content: center; /* 中央揃え */
-    align-items: center;     /* 中央揃え */
-}
-
-/* ログインフォーム */
-.area {
-    padding:15px;         /* 余白 */
-    border:1px solid;     /* 枠線 */
-    border-radius:15px;   /* 角丸 */
-    border-color: gray; /* 枠線の色 */
-}  
-
-/* タイトル */
-#title {
-    font-size: 45px;
-    color: gray;
-    text-align: center;
-    padding: 20px;
-}
-
+/*******************************************************************/
 /* テキストボックス */
 p {
     padding-left: 50px;
@@ -76,12 +52,6 @@ p {
     text-align: left;
     margin: 30px;
     padding: 20px;
-}
-
-/* テキストボックス */
-input {
-    width: 70%;
-    height: 50%;
 }
 
 /* 送信ボタン */
