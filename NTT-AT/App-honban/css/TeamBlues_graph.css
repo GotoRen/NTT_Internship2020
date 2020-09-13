@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    width: 60%;
+    height: 60%;
+    float: left;
+}
+
+div#wrapper {
+    margin: 50px auto;
+}
