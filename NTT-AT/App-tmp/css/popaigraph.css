@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+
+div#wrapper {
+    margin: 50px auto;
+}
+
+div {
+    text-align: center;
+}

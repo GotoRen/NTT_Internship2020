@@ -1,0 +1,101 @@
+/* バックグラウンドカラー */
+body {
+    background-color: #faf0e6;
+}
+ 
+/* コンテンツ */
+#contents {
+    border: 1px solid Black;
+    width: 1500px;
+    height: 50%;
+    padding: 20px;
+    margin-right: auto;
+    margin-left : auto;
+    margin-top: 2%;
+    background-size: cover;             
+    background-attachment: fixed;       
+    background-color: #fffafa;
+}
+
+/* ホリゾンタルルール */
+.line {
+    width: 40%;
+    height: 1.5px;
+    background: linear-gradient(to right, blue, yellow, red);
+    background: linear-gradient(to right, sandybrown, blanchedalmond, pink);
+}
+
+/* クリエタ表示コンテンツ */
+div.creater {
+    color: darkolivegreen;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Homemade Apple', cursive;
+}
+
+
+/* Signin Form */
+.container {
+    height: 80vh;            /* 縦のサイズ */
+    display: flex;           /* 中央揃え */
+    justify-content: center; /* 中央揃え */
+    align-items: center;     /* 中央揃え */
+}
+
+/* ログインフォーム */
+.area {
+    padding:15px;         /* 余白 */
+    border:1px solid;     /* 枠線 */
+    border-radius:15px;   /* 角丸 */
+    border-color: gray; /* 枠線の色 */
+}  
+
+/* タイトル */
+#title {
+    font-size: 45px;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+/* テキストボックス */
+p {
+    padding-left: 50px;
+    text-align: left;
+    color: gray;
+}
+
+/* テキストボックスを囲む */
+.elem {
+    width: 350px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+}
+
+/* テキストボックス */
+input {
+    width: 70%;
+    height: 50%;
+}
+
+/* 送信ボタン */
+.btn {
+    border-radius: 15px;
+    font-size: 15pt;
+    text-align: center;
+    color: gray;
+    border-color: gray;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+}
