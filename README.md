@@ -4,12 +4,12 @@
 - コードの共有とバックアップ
 - Contents
   - `Development.md`
-    - プロジェクト上流工程
+    - プロジェクト上流工程を策定しました
     - 青色表記は提示案 
   - `Topology`
-    - ネットワーク構成図を作成しておきました
-  - `App`
-    - source code
+    - ネットワーク構成を設計しました
+  - `Team1`
+    - appのソースコード
 - Access     
   - View
     - http://20.46.165.16/internship/Team1/Signin/signin.html
