@@ -1,0 +1,86 @@
+/* 背景色 */
+body {
+    background-color: #faf0e6; 
+}
+ 
+/* コンテンツエリア */
+#contents {
+    /* 基本設定 */
+    border: 1px solid Black;
+    width: 1500px;
+    height: 50%;
+    /* 内側 */
+    padding: 20px;
+    /* 外側 */
+    margin-right: auto;
+    margin-left : auto;
+    margin-top: 2%;
+    /* 詳細設定 */
+    background-size: cover;             
+    background-attachment: fixed;       
+    background-color: #fffafa;
+}
+
+/* Appタイトル */
+.title {
+    color: darkolivegreen;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Homemade Apple', cursive;
+}
+
+/* ホリゾンタルルール */
+.line {
+    width: 40%;
+    height: 1.5px;
+    background: linear-gradient(to right, blue, yellow, red);
+    background: linear-gradient(to right, sandybrown, blanchedalmond, pink);
+}
+
+/*******************************************************************/
+
+/* 各要素 */
+.elem {
+    width: 350px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+}
+
+/* テキスト */
+p {
+    font-size: 15pt;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: gray;
+    background: #EFEFEF;
+    border: 1px solid;
+    border-color: black;
+}
+
+/* 画像 */ 
+img {
+    margin-left: 5%;
+}
+
+/* ボタン */
+.btn {
+    border-radius: 15px;
+    font-size: 15pt;
+    text-align: center;
+    color: gray;
+    border-color: gray;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
