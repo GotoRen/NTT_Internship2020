@@ -6,10 +6,12 @@
   - `Development.md`
     - プロジェクト進行のメモをまとめておきました
     - 青色表記は提案したもの 
-  - `Topology`
+  - `Topology/`
     - ネットワーク構成を修正しました
-  - `Team1`
+  - `Team1/`
     - appのソースコードです
+  - `Requirement/`
+    - 要件定義
 - Access     
   - Public View
     - http://20.46.165.16/internship/Team1/Signin/signin.html
