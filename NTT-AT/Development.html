@@ -684,7 +684,7 @@ pre.editor-colors .fold-marker:after {
 <h1 id="-font-color-orange-font-"><font color="Orange">② 解決方法検討</font></h1>
 <h3 id="-font-color-blue-font-"><font color="Blue">解決方法</font></h3>
 <ul>
-<li>工場内の温度湿度管理システムの自動化とリモート化<ul>
+<li>工場内の温度湿度管理システムの自動化とリモート化<br>→ <u>結論：工場システムの自動化・リモート化の推進</u><ul>
 <li>温度・湿度を人の手だけでなく、ICTを利用して管理する</li>
 <li>空調システムやその他の機器をリモート操作できるようにしたい</li>
 </ul>
@@ -730,7 +730,48 @@ pre.editor-colors .fold-marker:after {
 </ul>
 <h3 id="-font-color-blue-font-"><font color="Blue">ヒアリング</font></h3>
 <ul>
-<li><u>最大の要求：赤字をなくしたい！！</u><ol>
+<li>顧客のニーズ<ul>
+<li><font color="Green">ニーズ１：）温湿度管理の精度向上</font><ul>
+<li>手動から自動にすることで精度を向上させる<br>→ 廃棄野菜を減らす<br>→ 人件費削減</li>
+</ul>
+</li>
+<li><font color="Green">ニーズ２：）自宅からも工場システムへのアクセスを可能に（+社内からのみアクセス可能に）</font><ul>
+<li>セキュリティシステムの向上を図ることで、会社が望んでいる今後のリモートワークに対応</li>
+</ul>
+</li>
+<li><font color="Green">ニーズ３：）工場の監視システムの整備</font><ul>
+<li>工場監視システムを整備することで異常の早期発見を図る<br>→ 人件費削減、廃棄野菜等のコスト削減</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>実施項目<ul>
+<li>○ 温湿度管理の自動化・リモート化<ul>
+<li>±2度  </li>
+</ul>
+</li>
+<li>× セキュリテイ向上</li>
+<li>△ 監視システム<ul>
+<li>あくまでも温湿度管理の精度を高めるためのもの</li>
+<li>なくても精度が高いのであれば不要？      </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>温湿度管理の自動化・リモート化の詳細<ul>
+<li>機能<br>　  1. 正確に温度・湿度を計測する機能（誤差は±2）<br>　2. エアコンをリモートで操作できる機能<br>　  3. 温度が不適切であった場合に自動調整する機能</li>
+<li>性能・拡張性<ul>
+<li>想定利用者数：100人</li>
+<li>誤差：±2</li>
+</ul>
+</li>
+<li>セキュリティ<ul>
+<li>社内からのアクセスのみ許可する</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>【まとめ】<u>最大の要求：赤字をなくしたい！！</u><ol>
 <li><strong>野菜の廃棄数</strong><ul>
 <li>温度・湿度管理</li>
 <li>腐敗野菜の廃棄費5,000千円を削減できるのでは？</li>
@@ -836,6 +877,60 @@ pre.editor-colors .fold-marker:after {
 <li>やらないことも明確にする</li>
 <li>次のフェーズの提案も含めてみる</li>
 </ol>
+<h3 id="-font-color-blue-font-"><font color="Blue">もずくラボからの提案</font></h3>
+<ul>
+<li>提案書<ol>
+<li>課題（困りごと）<ul>
+<li>赤字（人件費・廃棄野菜の無駄なコストが多い）</li>
+</ul>
+</li>
+<li>目標<ul>
+<li>人件費削減・廃棄野菜を無くすことで赤字脱出</li>
+</ul>
+</li>
+<li>解決策<ul>
+<li>温度・湿度管理の自動化及びリモート化</li>
+</ul>
+</li>
+<li>費用<ul>
+<li>初期投資：1,500,000</li>
+<li>年間管理費：1,272,000</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>必要な機器<ul>
+<li>IoTゲートウェイ（計測）<ul>
+<li>個数：2（工場分）</li>
+</ul>
+</li>
+<li>環境センサ（計測）<ul>
+<li>個数：A1, B2</li>
+</ul>
+</li>
+<li>Webサーバ（操作）<ul>
+<li>個数：2（予備含む）</li>
+</ul>
+</li>
+<li>収集データ表示用Web アプリケーション<ul>
+<li>温度・湿度コントローラ</li>
+</ul>
+</li>
+<li>ファイアウォール<ul>
+<li>個数：2</li>
+</ul>
+</li>
+<li>スイッチングハブ<ul>
+<li>検討中...</li>
+</ul>
+</li>
+<li>インターネット回線<ul>
+<li>3本</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <hr>
 <h1 id="-font-color-orange-font-"><font color="Orange">⑤ プロジェクト計画書作成</font></h1>
 <h2 id="-font-color-gray-pj-font-"><font color="Gray">プロジェクト（PJ）計画書</font></h2>
@@ -866,17 +961,50 @@ pre.editor-colors .fold-marker:after {
 </ul>
 </li>
 </ul>
-<h3 id="-">目的</h3>
+<h3 id="-font-color-blue-font-"><font color="Blue">目的</font></h3>
 <ul>
-<li>人件費・廃棄費用削減のための温度・湿度管理の自動化システムの開発</li>
-<li>基本設計<ul>
-<li>データクラウドとWebServerはそれぞれ</li>
+<li>発注元の運営する屋内野菜栽培工場の温度湿度管理情報及び管理システムの遠隔管理を実現する</li>
+</ul>
+<h3 id="-">メモ</h3>
+<ul>
+<li><font color="Red">※ <strong>お客様からの追加要望が発生した場合</strong></font><ul>
+<li>内容<ul>
+<li>温度や湿度がある閾値を超えたらメールで通知する機能を、今の金額とスケジュールでやって欲しいが可能か？</li>
 </ul>
 </li>
-<li>詳細設計<ul>
-<li></li>
+<li>結論<ul>
+<li><u>この様な場合、PJ計画の見直しや設計書の修正、追加試験などの作業が追加で発生する</u></li>
+<li>労働者の残業が発生したり、スケジュール遅延等が発生する場合がある<br>→ Case-by-Case</li>
 </ul>
 </li>
 </ul>
-<p>aaaa</p></body>
+</li>
+</ul>
+<h1 id="-font-color-orange-kpt-font-"><font color="Orange">⑥ KPTによる振り返り</font></h1>
+<h2 id="-font-color-gray-k-keep-font-"><font color="Gray">K：Keep</font></h2>
+<ul>
+<li>続けること（良かったこと）<ul>
+<li>各個人ごとに良かったこと、努力したこと、工夫したことを挙げてもらう</li>
+<li>その後、チーム内で共有する</li>
+</ul>
+</li>
+</ul>
+<h2 id="-font-color-gray-p-problem-font-"><font color="Gray">P：Problem</font></h2>
+<ul>
+<li>問題点、改善すべき点<ul>
+<li><u>控えめにする！</u></li>
+<li>各個人ごとにもっとこうした方が良かったことや見直し、改善が必要だと感じたことを挙げてもらう</li>
+<li>その後、チーム内で共有する</li>
+</ul>
+</li>
+</ul>
+<h2 id="-font-color-gray-t-try-font-"><font color="Gray">T：Try</font></h2>
+<ul>
+<li>次にすること（チャレンジすること）<ul>
+<li><u>ポイント：特にしっかり書く（具体的に！）</u></li>
+<li>今回のプロジェクトを振り返って次に生かせる点、これからチャレンジすることを共有する</li>
+<li>Keep, Ploblemを元に考える</li>
+</ul>
+</li>
+</ul></body>
 </html>
