@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<button onclick="Back()">Back</button>
+<!-- <button onclick="pageRedirect()">Check</button> -->
+<button onclick="Next()">Next</button>
+<img id="result" src="./img/user_1.png" alt="t1">
+<script>
+    localStorage.setItem("Num", 1);
+    function Back(){
+        var num = localStorage.getItem("num");
+        if (num === "NaN") {
+            num = "1";
+        }
+        var int = parseInt(num, 10) - 1 ;
+        localStorage.setItem("num", int);
+        document.getElementById("result").src = "./img/user_t" + num.toString() + ".png"
+    }
+    function Next(){
+        var num = localStorage.getItem("num");
+        if (num === "NaN") {
+            num = "1";
+        }
+        var int = parseInt(num, 10) + 1;
+        localStorage.setItem("num", int);
+        document.getElementById("result").src = "./img/user_t" + num.toString() + ".png"
+    }
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
