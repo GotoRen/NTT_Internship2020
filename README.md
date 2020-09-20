@@ -2,7 +2,7 @@
 - AT共有 / Docomoハッカソン
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)`NTT-AT`
 - コードの共有とバックアップ
-- Contents
+- _Contents_
   - `Development.md`
     - プロジェクト進行のメモをまとめておきました
     - 青色表記は提案したもの 
@@ -12,7 +12,7 @@
     - appのソースコードです
   - `Requirement/`
     - 要件定義
-- Access     
+- _Access_     
   - Public View
     - http://20.46.165.16/internship/Team1/Signin/signin.html
   - Internal 
@@ -26,6 +26,11 @@
     - __anaconda__
       - __conda__
     - __pip (Package Install for Python)__
+  - パッケージ
+    - pip3からインストール
+      - `$ pip3 install [パッケージ名]`
+    - パッケージリスト
+      - `$ pip3 list`
   - `sys.path`パスを通す
     - https://qiita.com/yutoman027/items/7ee796c41575eb0511c3
     - `$ pip3 install [パッケージ名]`
@@ -55,3 +60,5 @@
     - `seaborn`
     - `matplotlib`
       - `matplotlib.pyplot`
+    - `boto3`
+    - `logging`
