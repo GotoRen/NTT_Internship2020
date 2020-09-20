@@ -46,7 +46,7 @@
   ```
     
 - _CORDING_
-  - ライブラリ.
+  - ライブラリ
     - `pandas`
       - DataFrame：csvファイルの読み書き
     - `numpy`
