@@ -41,10 +41,10 @@
     - IAMユーザ
   - Boto3 Documentation: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-uploading-files.html
 - _Reference_
-  - https://www.nttdocomo.co.jp/info/news_release/2019/04/12_01.html
   - https://www.nttdocomo.co.jp/info/news_release/2018/03/19_02.html
+  - https://www.nttdocomo.co.jp/info/news_release/2019/04/12_01.html
   - https://www.nttdocomo.co.jp/info/news_release/2020/05/28_03.html
-  - hhttps://www.nttdocomo.co.jp/service/mydaiz/
+  - https://www.nttdocomo.co.jp/service/mydaiz/
 - _MEMO_
   - パッケージ管理
     - __anaconda__
