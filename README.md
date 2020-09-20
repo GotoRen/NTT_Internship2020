@@ -47,6 +47,11 @@
     
 - _CORDING_
   - ライブラリ
+    - `sys`
+    - `pprint`
     - `pandas`
       - DataFrame：csvファイルの読み書き
     - `numpy`
+    - `seaborn`
+    - `matplotlib`
+      - `matplotlib.pyplot`
