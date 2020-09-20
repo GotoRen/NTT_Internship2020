@@ -38,6 +38,13 @@
 	```
 	/usr/local/lib/python3.8/site-packages`
 	```
+  - パスの確認
+  ```
+  import sys
+  import pprint
+  pprint.pprint(sys.path)
+  ```
+    
 - _CORDING_
   - ライブラリ.
     - `pandas`
