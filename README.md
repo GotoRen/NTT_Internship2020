@@ -26,6 +26,14 @@
   - `src/fatigue-check-1`: バック
   - `src/save`: 保存画像プール
   - `src/test_code`: AWS動作確認
+- _Tools_
+  - AWS: デプロイ
+  - Trello: タスク管理
+  - Draw.io: 構成図の作成
+  - Prott: アプリケーションフローの作成
+  - miro: アイデア出し
+  - Free Logo Generator Online: ロゴの作成
+  - Jupyter Notebook: エディタ
 - _Location_
   - docomo Developer support: https://dev.smt.docomo.ne.jp/?p=login
   - Repl-AI: https://repl-ai.jp/#
