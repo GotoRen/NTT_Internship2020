@@ -21,7 +21,7 @@
     - プレゼン資料は以下のスライドURLで編集をお願いします。
       - https://docs.google.com/presentation/d/14Tl_QP-z_7Ld_onh3h0TwlHxFS2sNCrQ2aedXml-kac/edit?ts=5f5d8a35#slide=id.g96d09e456d_2_32
 ### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `NTTdocomo`
-- _configuration_
+- _Configuration_
 - _MEMO_
   - パッケージ管理
     - __anaconda__
@@ -50,8 +50,7 @@
   import pprint
   pprint.pprint(sys.path)
   ```
-    
-- _CORDING_
+- _Coding_
   - ライブラリ
     - `sys`
     - `pprint`
@@ -70,3 +69,6 @@
       - 学習手法: Random Forest
     - `awscli`
       - AWS Controlle
+- View
+  - Frontend: https://prottapp.com/p/6b89aa#/
+  - Backend: http://dc-s3-1.s3-website-ap-northeast-1.amazonaws.com/Tom/index.html
