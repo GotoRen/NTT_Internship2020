@@ -21,5 +21,22 @@
     - プレゼン資料は以下のスライドURLで編集をお願いします。
       - https://docs.google.com/presentation/d/14Tl_QP-z_7Ld_onh3h0TwlHxFS2sNCrQ2aedXml-kac/edit?ts=5f5d8a35#slide=id.g96d09e456d_2_32
 ### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `NTTdocomo`
-- hoge
-  - fuga
+- MEMO
+  - パッケージ管理
+    - __conda__
+    - __pip (Package Install for Python)__
+  - `sys.path`パスを通す
+    - https://qiita.com/yutoman027/items/7ee796c41575eb0511c3
+    - `$ pip3 install [パッケージ名]`
+      - 次のように返される場合
+        - `>> Requirement already satisfied: [パッケージ名] in /usr/local/lib/python3.8/site-packages (1.19.2)`
+      - パスを追加
+        - `$ cd /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages`
+      - 以下を追記
+        - `$ sudo nano importmodule.pth`
+	`追加: /usr/local/lib/python3.8/site-packages`
+- CORDING
+  - fatigue-check-1 / use Library.
+    - `pandas`
+      - DataFrame：csvファイルの読み書き
+    - `numpy`
