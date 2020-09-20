@@ -74,7 +74,7 @@
   pprint.pprint(sys.path)
   ```
 - _Coding_
-  - ライブラリ
+  - 『Library』
     - `sys`
     - `pprint`
     - `pandas`
@@ -87,11 +87,11 @@
       - AWS API/SDK
     - `logging`
       - AWS API/SDK
+    - `awscli`
+      - AWS Controlle
     - `sklearn`
       - 機械学習ライブラリ
       - 学習手法: Random Forest
-    - `awscli`
-      - AWS Controlle
 - View
   - Front: https://prottapp.com/p/6b89aa#/s/5f64148a4942fb19264a7694
   - Back: http://dc-s3-1.s3-website-ap-northeast-1.amazonaws.com/Tom/index.html
