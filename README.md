@@ -35,7 +35,9 @@
         - `$ cd /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages`
       - 以下を追記
         - `$ sudo nano importmodule.pth`
-	- `>> 追加: /usr/local/lib/python3.8/site-packages`
+	```
+	/usr/local/lib/python3.8/site-packages`
+	```
 - _CORDING_
   - ライブラリ.
     - `pandas`
