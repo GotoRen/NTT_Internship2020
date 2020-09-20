@@ -67,5 +67,5 @@
     - `sklearn`
       - 機械学習ライブラリ
       - 学習手法: Random Forest
-    - awscli
+    - `awscli`
       - AWS Controlle
