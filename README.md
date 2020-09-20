@@ -61,4 +61,9 @@
     - `matplotlib`
       - `matplotlib.pyplot`
     - `boto3`
+      - AWS API/SDK
     - `logging`
+      - AWS API/SDK
+    - `sklearn`
+      - 機械学習ライブラリ
+      - 学習手法: Random Forest
