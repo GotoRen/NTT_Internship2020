@@ -21,6 +21,7 @@
     - プレゼン資料は以下のスライドURLで編集をお願いします。
       - https://docs.google.com/presentation/d/14Tl_QP-z_7Ld_onh3h0TwlHxFS2sNCrQ2aedXml-kac/edit?ts=5f5d8a35#slide=id.g96d09e456d_2_32
 ### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `NTTdocomo`
+- _configuration_
 - _MEMO_
   - パッケージ管理
     - __anaconda__
