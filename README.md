@@ -21,9 +21,10 @@
     - プレゼン資料は以下のスライドURLで編集をお願いします。
       - https://docs.google.com/presentation/d/14Tl_QP-z_7Ld_onh3h0TwlHxFS2sNCrQ2aedXml-kac/edit?ts=5f5d8a35#slide=id.g96d09e456d_2_32
 ### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `NTTdocomo`
-- MEMO
+- _MEMO_
   - パッケージ管理
-    - __conda__
+    - __anaconda__
+      - __conda__
     - __pip (Package Install for Python)__
   - `sys.path`パスを通す
     - https://qiita.com/yutoman027/items/7ee796c41575eb0511c3
@@ -35,7 +36,7 @@
       - 以下を追記
         - `$ sudo nano importmodule.pth`
 	- `>> 追加: /usr/local/lib/python3.8/site-packages`
-- CORDING
+- _CORDING_
   - ライブラリ.
     - `pandas`
       - DataFrame：csvファイルの読み書き
