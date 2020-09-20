@@ -41,7 +41,7 @@
       - 以下を追記
         - `$ sudo nano importmodule.pth`
 	```
-	/usr/local/lib/python3.8/site-packages`
+	/usr/local/lib/python3.8/site-packages
 	```
   - パスの確認
   ```
@@ -67,3 +67,5 @@
     - `sklearn`
       - 機械学習ライブラリ
       - 学習手法: Random Forest
+    - awscli
+      - AWS Controlle
