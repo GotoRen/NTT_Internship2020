@@ -70,5 +70,5 @@
     - `awscli`
       - AWS Controlle
 - View
-  - Frontend: https://prottapp.com/p/6b89aa#/
-  - Backend: http://dc-s3-1.s3-website-ap-northeast-1.amazonaws.com/Tom/index.html
+  - Front: https://prottapp.com/p/6b89aa#/s/5f64148a4942fb19264a7694
+  - Back: http://dc-s3-1.s3-website-ap-northeast-1.amazonaws.com/Tom/index.html
