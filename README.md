@@ -1,5 +1,5 @@
 # NTT_Internship2020
-- AT共有 / Docomoハッカソン
+- NTT-AT / NTTdocomo
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)`NTT-AT`
 - コードの共有とバックアップ
 - _Contents_
