@@ -91,8 +91,8 @@
   - `sklearn`
     - <u>機械学習ライブラリ</u>
     - <u>学習手法: Random Forest</u>
-- View
+- _View_
   - Front: https://prottapp.com/p/6b89aa#/s/5f64148a4942fb19264a7694
   - Back: http://dc-s3-1.s3-website-ap-northeast-1.amazonaws.com/Tom/index.html
-- Other
+- _Other_
   - https://rakuten-intern2020-b5.web.app/#/
