@@ -5,7 +5,7 @@
 - _Contents_
   - `Development.md`
     - プロジェクト進行のメモをまとめておきました
-    - 青色表記は提案したもの 
+    - 青色表記は提案したもの
   - `Topology/`
     - ネットワーク構成を修正しました
   - `Team1/`
@@ -15,7 +15,7 @@
 - _Access_     
   - Public View
     - http://20.46.165.16/internship/Team1/Signin/signin.html
-  - Internal 
+  - Internal
     - 以下のスプレッドシートを共有フォルダとして設定しました。
       - https://docs.google.com/spreadsheets/d/1JInjsHTp7T1aqAKBqBbUYuVtMH53JwbGJicYXmu-vAg/edit#gid=0  
     - プレゼン資料は以下のスライドURLで編集をお願いします。
@@ -73,25 +73,24 @@
   import pprint
   pprint.pprint(sys.path)
   ```
-- _Coding_
-  - 『Library』
-    - `sys`
-    - `pprint`
-    - `pandas`
-      - DataFrame：csvファイルの読み書き
-    - `numpy`
-    - `seaborn`
-    - `matplotlib`
-      - `matplotlib.pyplot`
-    - `boto3`
-      - AWS API/SDK
-    - `logging`
-      - AWS API/SDK
-    - `awscli`
-      - AWS Controlle
-    - `sklearn`
-      - 機械学習ライブラリ
-      - 学習手法: Random Forest
+- _Library_
+  - `sys`
+  - `pprint`
+  - `pandas`
+    - <u>DataFrame：csvファイルの読み書き</u>
+  - `numpy`
+  - `seaborn`
+  - `matplotlib`
+    - `matplotlib.pyplot`
+  - `boto3`
+    - <u>AWS API/SDK</u>
+  - `logging`
+    - <u>AWS API/SDK</u>
+  - `awscli`
+    - <u>AWS Control</u>
+  - `sklearn`
+    - <u>機械学習ライブラリ</u>
+    - <u>学習手法: Random Forest</u>
 - View
   - Front: https://prottapp.com/p/6b89aa#/s/5f64148a4942fb19264a7694
   - Back: http://dc-s3-1.s3-website-ap-northeast-1.amazonaws.com/Tom/index.html
