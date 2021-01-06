@@ -1,6 +1,5 @@
 # NTT_Internship2020
-- NTT-AT / NTTdocomo
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)`NTT-AT`
+## 🌱 NTT-AT
 - コードの共有とバックアップ
 - _Contents_
   - `Development.md`
@@ -20,7 +19,8 @@
       - https://docs.google.com/spreadsheets/d/1JInjsHTp7T1aqAKBqBbUYuVtMH53JwbGJicYXmu-vAg/edit#gid=0  
     - プレゼン資料は以下のスライドURLで編集をお願いします。
       - https://docs.google.com/presentation/d/14Tl_QP-z_7Ld_onh3h0TwlHxFS2sNCrQ2aedXml-kac/edit?ts=5f5d8a35#slide=id.g96d09e456d_2_32
-### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `NTTdocomo`
+
+## 🌱 NTTdocomo
 - _Configuration_
   - `src/dc-s3-1`: フロント
   - `src/fatigue-check-1`: バック
